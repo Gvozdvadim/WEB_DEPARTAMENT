@@ -529,7 +529,16 @@ button:focus {
 button:active {
     transform: scale(0.99);
 }
-
+.footer__contact-web {
+  margin: 0rem;
+  display: inline-block;
+  font-family: circe-bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.2rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
 /**/
 @font-face {
   font-family: 'circe-bold';
@@ -669,7 +678,20 @@ button:active {
     margin-top: 1rem;
     min-width: 90%;
     font-size: 1.5rem;
-    line-height: 2.8rem; } }
+    line-height: 2.8rem; }
+  .wr_price_pos {
+    width: 91.94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0px auto;
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+    border-bottom: 1px solid #424242;
+  }
+}
 @media (min-width: 5100px) {
   .centerTitle__description {
     font-size: 4.4rem;} }
@@ -3155,7 +3177,7 @@ button:active {
 
 .footer__contact,
 .footer__address {
-  width: 25rem; }
+  /*width: 25rem;*/ }
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer__contact,
   .footer__address {
