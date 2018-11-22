@@ -664,6 +664,7 @@ button:active {
   color: #ffffff;
   line-height: 1.667;
   text-align: center; }
+
 @media (max-width: 1490px) {
   .centerTitle__description {
     margin-top: 5rem;
@@ -690,6 +691,31 @@ button:active {
     /* padding-top: 60px; */
     /* padding-bottom: 60px; */
     border-bottom: 1px solid #424242;
+  }
+  .wr_pr_usd {
+    width: 100%;
+  }
+  .txt_price {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: inherit;
+    max-width: 100%;
+  }
+  .wr_txt_price {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: self-start;
+    min-height: 20vh;
+    justify-content: center;
+    width: 100%;
+  }
+  .txt_title_price {
+    font-family: diariaPro-Regular;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
 }
 @media (min-width: 5100px) {
@@ -2583,7 +2609,10 @@ button:active {
     min-height: 80vh; } }
 @media screen and (max-width: 768px) {
   .description {
-    min-height: 80vh; } }
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+}
 .description .centerTitle {
   top: 50%; }
 @media screen and (max-width: 768px) {
@@ -3083,8 +3112,8 @@ button:active {
   left: 0;
   width: 100%;
   height: .1rem;
-  display: block;
-  background: #474747; }
+  display: block;}
+  /*background: #474747; }*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer__container {
     padding-top: 3rem;
