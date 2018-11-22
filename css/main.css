@@ -1986,7 +1986,7 @@ button:active {
 .about__stats-tabs-content {
   position: absolute;
   display: none;
-  text-align: center;
+
   font-family: 'diariaPro-Light';
   font-size: 1.8rem;
   line-height: 3rem;
@@ -2597,21 +2597,25 @@ button:active {
 
 .description {
   position: relative;
-  min-height: 85vh;
-  min-height: 99.6rem;
+  /*min-height: 85vh;*/
+  /*min-height: 99.6rem;*/
   z-index: 2;
   background: #FFFFFF; }
 @media (max-width: 1490px) {
   .description {
-    min-height: 95.6rem; } }
+    min-height: 95.6rem;
+  } }
 @media (min-width: 768px) and (max-width: 1024px) {
   .description {
-    min-height: 80vh; } }
+    min-height: 80vh;
+  } }
 @media screen and (max-width: 768px) {
   .description {
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    min-height: 100vh;
+  }
 }
 .description .centerTitle {
   top: 50%; }
@@ -2628,7 +2632,8 @@ button:active {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 100%; }
+  /*height: 100%; */
+}
 
 @keyframes showMe {
   0% {
