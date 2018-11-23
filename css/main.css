@@ -601,6 +601,11 @@ button:active {
   font-size: 18px;
   font-family: inherit;
 }
+.sections__title_skill>h3{
+  font-size: 4.8rem;
+  text-transform: uppercase;
+
+}
 .centerTitle {
   position: absolute;
   margin: 0 auto;
@@ -649,6 +654,11 @@ button:active {
     font-size: 3.2rem;
     line-height: 5rem; } }
 @media screen and (max-width: 768px) {
+  .sections__title_skill > h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
   .centerTitle__text {
     font-size: 2.2rem;
     line-height: 3rem; } }
@@ -717,6 +727,12 @@ button:active {
     padding-bottom: 30px;
     padding-top: 30px;
   }
+  .centerTitle__text>h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: diariaPro-Regular;
+  }
+
 }
 @media (min-width: 5100px) {
   .centerTitle__description {
@@ -799,7 +815,18 @@ button:active {
 
 @media screen and (max-width: 768px) {
   .logo__svg {
-    width: 100%; } }
+    width: 100%; }
+  .sections__title_skill {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+  }
+}
 
 .logo__svg--black path,
 .logo__svg--black polygon {
@@ -1851,7 +1878,7 @@ button:active {
 
 .about__stats {
   position: relative;
-  height: 101rem;
+  height: 101vh;
   z-index: 2;
   background: #000000;
   background-size: cover;
@@ -1867,7 +1894,10 @@ button:active {
 @media screen and (max-width: 768px) {
   .about__stats {
     height: auto;
-    min-height: 52rem; } }
+    min-height: 52rem;
+    height: 101vh;
+    padding-top: 12vh;
+  } }
 .about__stats-container {
   padding: 0 8%;
   /* position: relative; */
@@ -1889,7 +1919,7 @@ button:active {
 @media screen and (max-width: 768px) {
   .about__stats-container {
     position: relative;
-    padding: 6.4rem 0;
+    padding: 1.4rem 0;
     top: 0;
     left: 0;
     -ms-transform: translate(0, 0);
@@ -1917,7 +1947,10 @@ button:active {
   .about__stats-tabs-head {
     width: 70rem; } }
 .about__stats-tabs-head-container {
-  margin-bottom: 4.2rem; }
+  margin-bottom: 4.2rem;
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 768px) {
   .about__stats-tabs-head-container {
     overflow-x: auto; } }
@@ -2597,7 +2630,7 @@ button:active {
 
 .description {
   position: relative;
-  /*min-height: 85vh;*/
+  min-height: 100vh;
   /*min-height: 99.6rem;*/
   z-index: 2;
   background: #FFFFFF; }
