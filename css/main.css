@@ -1948,8 +1948,8 @@ button:active {
     width: 70rem; } }
 .about__stats-tabs-head-container {
   margin-bottom: 4.2rem;
-  display: flex;
-  justify-content: center;
+  /*display: flex;*/
+  /*justify-content: center;*/
 }
 @media screen and (max-width: 768px) {
   .about__stats-tabs-head-container {
